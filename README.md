@@ -1,7 +1,7 @@
 OBESITY LEVELS BASED ON EATING HABITS AND PHYSICAL CONDITION MACHINE LEARNING FINAL PROJECT
 ===========================================================================================
 
-Introduction  
+##Introduction  
 This project explores obesity classification based on demographic and lifestyle factors.  
 
 Motivation: Obesity is a global health issue, and predicting risk factors can support prevention and awareness. 
@@ -9,7 +9,7 @@ Motivation: Obesity is a global health issue, and predicting risk factors can su
 Dataset: UCI "Estimation of Obesity Levels based on Eating Habits and Physical Condition".  
 
 
-Dataset Overview  
+##Dataset Overview  
 - 2,111 records, 17 variables.
 - Variables include demographic (Age, Gender, Height, Weight) and lifestyle factors (diet, physical activity, habits).
 - No missing values.
@@ -21,7 +21,7 @@ Steps performed:
 - Feature importance (Random Forest, with and without basic variables, and with class balancing)
 - Multiclass Logistic Regression (evaluation with precision, recall, F1-score, confusion matrix)
 
-Results Overview  
+##Results Overview  
 - Female data subset:
   - Average F1-score: 0.66
   - Best class: Obesity (0.81)
@@ -39,29 +39,29 @@ Results Overview
   - Men: water intake, physical activity, number of main meals
   - Everyone: physical activity + number of meals remain consistent predictors
 
-Difficulties  
+##Difficulties  
 - Dataset selection: many free datasets looked synthetic.
 - Gender-specific modeling: separate analysis for women and men was required.
 - Imbalance in obesity categories: solved by grouping and balancing.
 
-Future Improvements  
+##Future Improvements  
 - Expand dataset size for better generalization.
 - Test other algorithms and apply cross-validation.
 - Validate on external datasets.
 
-How Could the Project Be Used?  
+##How Could the Project Be Used?  
 - Identify key factors influencing obesity.
 - Support gender-specific health interventions.
 - Improve awareness and education.
 - Provide framework for future research.
 
-Included Files  
+##Included Files  
 - ReDI_Project2025_ML_Yuliia_Fomenko.pdf — final presentation
 - ReDI_Project2025_ML_Yuliia_Fomenko.ipynb — Jupyter Notebook with code
 - ObesityDataSet_raw_and_data_synthetic.csv — dataset
 - README.md — project description
 
-Required Libraries:  
+##Required Libraries:  
 import pandas as pd  
 import numpy as np  
 import matplotlib.pyplot as plt  
@@ -81,17 +81,18 @@ Explanation of libraries:
 - scikit-learn – train/test split, preprocessing, models (Random Forest, Logistic Regression), evaluation metrics
 - scipy.stats – statistical tests (ANOVA)
 
-How to Run:  
+##How to Run:  
 1. Open the notebook file: ReDI_Project2025_ML_Yuliia_Fomenko.ipynb (Jupyter Notebook format).
 2. Download the required CSV file and place it in the same directory:
    - ObesityDataSet_raw_and_data_synthetic.csv
 3. Run the first code cell to import the required libraries.
 4. Continue running the cells to reproduce the analysis.
 
-Resources  
+##Resources  
 - Dataset: UCI "Estimation of Obesity Levels based on Eating Habits and Physical Condition"
 - Google Classroom materials (presentations, notebooks)
 - Stack Overflow, W3Schools Python
 - Copilot (proofreading, brainstorming, debugging, dataset search)
+
 
 
