@@ -3,7 +3,9 @@ OBESITY LEVELS BASED ON EATING HABITS AND PHYSICAL CONDITION MACHINE LEARNING FI
 
 Introduction  
 This project explores obesity classification based on demographic and lifestyle factors.  
-Motivation: Obesity is a global health issue, and predicting risk factors can support prevention and awareness.  
+
+Motivation: Obesity is a global health issue, and predicting risk factors can support prevention and awareness. 
+
 Dataset: UCI "Estimation of Obesity Levels based on Eating Habits and Physical Condition".  
 
 
@@ -91,4 +93,5 @@ Resources
 - Google Classroom materials (presentations, notebooks)
 - Stack Overflow, W3Schools Python
 - Copilot (proofreading, brainstorming, debugging, dataset search)
+
 
