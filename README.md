@@ -61,7 +61,7 @@ INCLUDED FILES:
 - ObesityDataSet_raw_and_data_synthetic.csv — dataset
 - README.md — project description
 
-REQUIRED LIBRARIES:  
+#REQUIRED LIBRARIES:  
 import pandas as pd  
 import numpy as np  
 import matplotlib.pyplot as plt  
@@ -93,6 +93,7 @@ RESOURCES:
 - Google Classroom materials (presentations, notebooks)
 - Stack Overflow, W3Schools Python
 - Copilot (proofreading, brainstorming, debugging, dataset search)
+
 
 
 
